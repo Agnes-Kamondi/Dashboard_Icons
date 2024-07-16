@@ -1,8 +1,24 @@
 .content{
     width: 50%;
+    padding: 8%;
+    height: 100%;
+}
+.hero{
+    width: 50%;
+    padding: 9%;
+    align-items: center;
+    gap: 10%;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("/home/studen/Documents/JS-AnitaB/Dashboard_Icons/dashboard/public/Images/man.jpeg");
 }
 .hero_image{
     width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-top: 30%;
+    margin-left: 20%;
+
+    
 }
 .container{
     display: flex;
@@ -19,7 +35,7 @@ p{
     font-size: 22px;
 }
 input{
-    width: 50%;
+    width: 70%;
     padding: 20px;
     border-radius: 10px;
     border: none;
@@ -36,6 +52,7 @@ input{
     display: flex;
     align-items: center;
     gap: 4%;
+    margin-top: 5%;
 }
 .ToggleSlider {
     --slider-color: #2E4053; 
@@ -45,3 +62,27 @@ input{
   .ToggleSlider .slider {
     background-color: var(--slider-color); /* Use the dark blue color for the slider */
   }
+button{
+    width: 200px;
+    padding: 15px;
+    background-color: #090958;
+    border-radius: 10px;
+    color: white;
+    font-style: bold;
+    border: none;
+    margin: 0 auto;
+    margin-left: 23%;
+}
+.signup_text{
+    color: #090958;
+}
+.call-to-action{
+    margin-left: 10%;
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+
+
+

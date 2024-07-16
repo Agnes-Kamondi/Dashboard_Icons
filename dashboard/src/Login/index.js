@@ -29,22 +29,25 @@ const Login = () =>{
                         padding={10}
                         flip={true}
                         transitionDuration={200}
-                        handleSize={20}
-                        width = {200}
+                        handleSize={18}
                         handleBorderRadius={10}
-                        />
+                        handleColor="#fff"                        />
                         <p>Remember me</p>
                         </div>
                     <button>Sign In</button>
                     <br/>
-                    <p>Already have an account? <span>Sign Up</span></p>
+                    <br/>
+                    <br/>
+                    <p className="call-to-action">Already have an account? <span className="signup_text">Sign Up</span></p>
                    </div>
                 </div>     
             </div>
+            <div className="hero">
                   <div className="hero_image">
                        <div><img src="/Images/logo.png" alt="logo" className="hero_img"/></div>
                        <div><h1>Edukeri</h1></div>
                  </div>
+            </div>
          </div>
     )
 }
