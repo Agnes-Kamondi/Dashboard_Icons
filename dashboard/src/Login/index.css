@@ -1,0 +1,47 @@
+.content{
+    width: 50%;
+}
+.hero_image{
+    width: 50%;
+}
+.container{
+    display: flex;
+}
+.logo_img{
+    height: 50px;
+    width: 50px;
+}
+.hero_img{
+    width: 120px;
+    height: 120px;
+}
+p{
+    font-size: 22px;
+}
+input{
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Platform{
+    display: flex;
+    gap: 4%;
+    padding: 20px;
+
+}
+.slider{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+.ToggleSlider {
+    --slider-color: #2E4053; 
+    width: 200px; 
+  }
+  
+  .ToggleSlider .slider {
+    background-color: var(--slider-color); /* Use the dark blue color for the slider */
+  }

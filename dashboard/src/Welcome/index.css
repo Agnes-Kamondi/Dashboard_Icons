@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('/home/studen/Documents/JS-AnitaB/Dashboard_Icons/dashboard/public/Images/man.jpeg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Old Standard TT';
+}
+.container{
+    width: 70%;
+    height: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+
+}
+h1{
+    font-size: 100px;
+    color: white;
+}
+p{
+    font-size: 30px;
+    color: white;
+}
+button{
+    width: 17%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    background-color: #090958;
+    border: 1px solid white;
+    color: white;
+    margin-top: 2.5%;
+    font-size: 15px;
+
+}
