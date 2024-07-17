@@ -43,7 +43,8 @@ font-size: 25px;
 font-weight: bold;
 padding: 1%;
 text-align: center;
-color: rgb(230, 224, 224);
+color: rgb(247, 244, 244);
+font-family: "Old Standard TT";
 
 }
 .logoAndName{
@@ -91,6 +92,10 @@ color: rgb(230, 224, 224);
     text-align: center;
 }
 
+#google{
+    text-align: center;
+    color: #090958;
+}
 
 
 
@@ -190,6 +195,11 @@ color: rgb(230, 224, 224);
         text-align: center;
     }
     
+
+    #google{
+        text-align: center;
+        color: #090958;
+    }
     
 
 }
@@ -278,7 +288,7 @@ color: rgb(230, 224, 224);
         height: 60px;
         width: 140px;
         border-radius:10px;
-        margin-left: 40%;
+        margin-left: 35%;
         font-size: 20px;
         font-family: 'poppins';
     }
@@ -292,6 +302,11 @@ color: rgb(230, 224, 224);
     }
     
 
+    #google{
+        text-align: center;
+        color: #090958;
+    }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px){
@@ -300,7 +315,7 @@ color: rgb(230, 224, 224);
         background-color: white;
         margin-left: 15%;
         margin-right: 30%;
-        height: 850px;
+        height: 900px;
         width: 70%;
         border-radius: 10px;
         padding: 1%;
@@ -472,7 +487,7 @@ color: rgb(230, 224, 224);
         height: 60px;
         width: 140px;
         border-radius:10px;
-        margin-left: 40%;
+        margin-left: 30%;
         font-size: 20px;
         font-family: 'poppins';
     }
@@ -582,3 +597,5 @@ color: rgb(230, 224, 224);
     }
     
 }
+
+
