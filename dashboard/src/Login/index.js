@@ -3,21 +3,21 @@ import './index.css';
 
 const Login = () =>{
     return(
-        <div className="container">
-            <div className="content">
+        <div className="main">
+            <div className="box">
                 <div className="Platform">
                     <div><img src="/Images/logo.png" alt="logo" className="logo_img"/></div>
                     <div><h2>Edukeri</h2></div>
                 </div>
-                <div>
+                <div className="form">
                     <div>
                         <div>
                             <p>Username</p>
-                            <input type="text" className="username" name="username" text= "Your Name"/>
+                            <input type="text" className="username" name="username" text= "Your Name" color="black"/>
                         </div>
                         <div>
                             <p>Password</p>
-                            <input type="password" className="password" name="password" text= "Your Password"/>
+                            <input type="password" className="password" name="password" text= "Your Password" color="back"/>
                         </div>
                     </div>
                     <div>
