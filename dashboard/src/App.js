@@ -1,24 +1,16 @@
-
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Sidebar from './Sidebar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-
 function App() {
   return (
-    <div className="container">
-
-<Router>
+    <Router>
+      <div>
+        <Sidebar/>
         <Routes>
-        <Route exact path="/" element={ <Sidebar/> } />        
 
-        </Routes>
-</Router>
-      
-
-    </div>
+          </Routes>
+      </div>
+    </Router>
   );
 }
 export default App;
-
-
